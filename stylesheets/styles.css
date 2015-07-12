@@ -2,8 +2,10 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#5e5e5e;
+  /*color:#ff0000;*/
+  
   font-weight:300;
 }
 
