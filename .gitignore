@@ -1,2 +1,24 @@
+# latex build files
 
- *.DS_Store
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.gz
+*.nav
+*.snm
+*.toc
+*.bcf
+*.run.xml
+*.synctex(busy)
+
+# temporary files
+*~
+*-checkpoint.ipynb
+
+#OSX Finder view file
+.DS_Store
+slides/.DS_Store

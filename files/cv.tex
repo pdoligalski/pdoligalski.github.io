@@ -1,0 +1,184 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Pawe\l{} Doligalski}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://pdoligalski.github.io/files/cv.pdf}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{http://www.unc.edu/}{University of Bristol} \\
+  Department of Economics \\
+  Priory Road Complex \\
+  BS8 1TU Bristol
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Email: & pawel.doligalski [at] bristol.ac.uk \\
+    Homepage: & \href{http://pdoligalski.github.io}{\tt pdoligalski.github.io} \\
+  \end{tabular}
+\end{minipage}
+
+\section*{Employment}
+
+\begin{itemize}
+\item Lecturer (Assistant Professor) in Economics, University of Bristol \hfill since 9/2016
+\end{itemize}
+
+
+\section*{Education}
+
+\begin{itemize}
+  \item Ph.D. in Economics, European University Institute \hfill 2011 - 2016
+
+  \item M.Res. in Economics, European University Institute \hfill 2012
+
+  \item{B.A. + M.A. in Quantitative Methods in Economics and Information Systems,\\
+   \indent \hspace{8cm} Warsaw School of Economics \hfill 2006 - 2011}
+
+
+\end{itemize}
+
+\section*{Research visits}
+
+\begin{itemize}
+  \item University of Pennsylvania \hfill  01/2014 - 04/2014
+  \item Central Bank of Hungary \hfill  07/2014 - 09/2014
+  \item National Bank of Poland \hfill  07/2015 - 09/2015
+
+\end{itemize}
+
+% \section*{Grants and scholarships}
+
+% \begin{itemize}
+  
+%   \item European University Institute scholarship \hfill 2011 - 2015  
+
+%   \item Erasmus scholarship, Universidade Catolica Portuguesa, Lisbon \hfill 2010 - 2011  
+
+% \end{itemize}
+
+
+\section*{Working papers}
+
+% \subsection*{Journal Articles}
+
+\begin{itemize}
+\item Optimal Redistribution with a Shadow Economy (with Luis E. Rojas), 2018
+\item Optimal Income Taxation and Commitment on the Labor Market, 2018
+\end{itemize}
+
+\section*{Selected work in progress}
+
+\begin{itemize}
+\item Tax Progressivity, Performance Pay and Search Frictions (with \'{A}rp\'{a}d \'{A}brah\'{a}m and Susanne Forstner)
+\item Optimal Taxation with Labor Market Experimentation (with Piotr Denderski)
+\end{itemize}
+
+\section*{Professional activities}
+\begin{itemize}
+\item Referee for \textit{Journal of Economic Behaviour and Organization, Journal of European Economic Association, Macroeconomic Dynamics}
+\end{itemize}
+
+\section*{Seminars and conference presentations}
+\begin{itemize}
+  \item 2015: RES Annual Conference, National Bank of Poland, ES World Congress, Warsaw Economic Seminar, SAEe, ES European Winter Meeting
+  \item 2016: Essex, Bristol, Mannheim, University of Barcelona
+  \item 2017: RES Annual Conference, TARC Workshop, PET Annual Conference, EEA-ESEM, Autonoma Barcelona, NTA Annual Conference, ES European Winter Meeting, Toulouse 
+  \item 2018: Mannheim Macro (comment), Ko\c{c}, NBP Summer Workshop, Leicester
+\end{itemize}
+
+\section*{Teaching}
+\begin{itemize}
+  \item Public Economics, BSc, University of Bristol
+  \item Public Finance and Monetary Policy, MSc, University of Bristol
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
